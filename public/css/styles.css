@@ -86,7 +86,7 @@ body {
 
 .webinar-date-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 20px;
   color: #000000;
@@ -94,7 +94,7 @@ body {
 
 .webinar-date-date {
   font-family: "Unbounded", Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.35rem;
   font-weight: 500;
   letter-spacing: 0;
   color: #000000;
@@ -516,10 +516,6 @@ body {
 @media (max-width: 576px) {
   .webinar-main-mentor img {
     width: 100%;
-  }
-
-  .webinar-title {
-    background-position: 85% -2rem;
   }
 }
 
