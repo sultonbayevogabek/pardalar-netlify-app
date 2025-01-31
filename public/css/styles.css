@@ -222,6 +222,7 @@ body {
 
 .webinar-main-button {
   position: relative;
+  overflow: hidden;
   height: 5rem;
   border-radius: 1rem;
   background: linear-gradient(180deg, #800080 0%, #9a2c9a 100%);
@@ -244,6 +245,8 @@ body {
 }
 
 .webinar-telegram-button {
+  position: relative;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -279,6 +282,27 @@ body {
   }
   20%, 40%, 60%, 80% {
     transform: translateX(-1px);
+  }
+}
+
+.webinar-telegram-button::before, .webinar-main-button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: rotate(45deg);
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(45deg);
   }
 }
 
