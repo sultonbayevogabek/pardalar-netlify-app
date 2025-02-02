@@ -330,6 +330,7 @@ body {
   border-color: #f5c6cb;
   border-radius: 16px;
   text-align: center;
+  font-size: 1.25rem;
 }
 
 .form-alert.open {
@@ -346,7 +347,7 @@ body {
   z-index: 2;
   display: none;
   place-items: center;
-  padding: 20px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.50);
 }
 
@@ -357,15 +358,15 @@ body {
 .modal-content {
   position: relative;
   width: 100%;
-  max-width: 32rem;
-  padding: 2.5rem;
+  max-width: 36rem;
+  padding: 1.5rem;
   background-color: #fff;
   border-radius: 1.125rem;
 }
 
 .form-heading {
   font-family: "Unbounded", sans-serif;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
   font-size: 1.75rem;
   color: #000000;
 }
@@ -401,6 +402,7 @@ body {
 
 .form-button {
   height: 4rem;
+  margin-top: 1rem;
   border-radius: 0.75rem;
   background: linear-gradient(180deg, #fb5598 0%, #ec3775 100%);
   font-size: 1.5rem;
