@@ -35,7 +35,7 @@ try {
     form.addEventListener('submit', async e => {
         e.preventDefault();
 
-        const submitButton = e.target.querySelector('.form-button');
+        const submitButton = e.target.querySelector('#form-button');
         const name = e.target.querySelector('#name').value.trim();
         const phone = e.target.querySelector('#phone').value?.replace(/[^0-9]/g, '');
 
